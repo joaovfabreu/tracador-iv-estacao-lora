@@ -1,0 +1,19 @@
+# Segredos locais e credenciais (NUNCA versionar)
+firmware/src/secrets.h
+*.env
+*.pem
+*.key
+*.cert
+
+# PlatformIO build e caches locais
+firmware/.pio/
+.pio/
+.vscode/
+.idea/
+
+# Arquivos temporários do SO
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+*.tmp
+*.log
